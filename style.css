@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 0px 30px;
+}
+.head-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+}
+.head-left img{
+    width: 200px;
+}
+.head-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.head-right img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.section-head a{
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    padding: 0px  0px 0px 30px;
+    gap: 30px;
+}
+.folder{
+display: flex;
+justify-content:center   ;
+align-items: center;
+gap: 10px;
+}
+.folder i{
+    margin-top: -15px;
+}
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.section-foot{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.firstcards{
+    display: flex;
+    gap: 20px;
+}
+.secondcard{
+    display: flex;
+    margin-left: -1000px;
+}
+.calendar i{
+    margin-top: -15px;
+}
+.card{
+    border: 1px solid gray;
+    width: 230px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+.card-image{
+    display: flex;
+    justify-content: space-between;
+background-image: url(https://i.pinimg.com/736x/a8/fc/c3/a8fcc353a0f6c38ee8329e321853c134.jpg);
+overflow: hidden;
+background-size: cover;
+width: 230px;
+height: 200px;
+border: 1px solid gray;
+border-radius: 10px 10px 0px 0px;
+padding: 10px;
+color: white;
+}
+.card-image svg{
+    color: black;
+    margin-top: 5px;
+}
+.empty{
+    width: 230px;
+    height:200px ;
+    border: 1px solid gray;
+}
+.icons{
+    border: 1px solid gray;
+    border-radius: 0px 0px 10px 10px;
+    width: 230px;
+    text-align: right;
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+footer{
+    padding: 30px;
+}
+footer i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
